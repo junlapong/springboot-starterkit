@@ -1,0 +1,15 @@
+
+mkdir -p ./db/data
+
+mongod --dbpath ./db/data
+
+mvn spring-boot:run
+
+
+------
+
+clear
+
+mvn clean
+
+rm -rf ./db/data
